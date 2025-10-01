@@ -2,8 +2,8 @@
 Gets image URL, returns its description
 
 ## Prerequisites
-Python 3.9
-BLIP base (Salesforce) 8-12 VRAM
+* Python 3.9
+* BLIP base (Salesforce) 8-12 VRAM
 ```
 pip install torch torchvision transformers pillow huggingface_hub
 huggingface-cli download Salesforce/blip-image-captioning-base --local-dir ./models/blip-base
